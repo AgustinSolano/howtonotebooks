@@ -1,0 +1,11 @@
+name: "howtonotebooks"
+output_dir: "docs"
+navbar:
+  title: "Cuadernos Científicos"
+  right:
+    - text: "About"
+      href: index.html
+    - text: "Notebooks"
+      menu:
+        - text: "Notebook 1"
+          href: notebook1.html
