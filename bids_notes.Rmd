@@ -1,0 +1,16 @@
+---
+title: "¿Cómo empezar con BIDS?"
+---
+\
+
+## Que es BIDS?
+BIDS: Brain Imaging Data Structure es una forma de estructurar todos los datos obtenidos en experimentos de Neuroimágenes (MRI, fMRI, EEG, iEEG, conducta, etc)
+
+TODO: PONER ALGUNA FIGURA DEL ARBOL?
+
+La recomendación es ingresar primero al [sitio principal del estándar ](https://bids.neuroimaging.io/ "BIDS") y mirar también los [detalles del estándar (v1.4.0)](https://bids-specification.readthedocs.io/en/stable/ "v1.4.0") para entender el árbol de directorios y archivos requeridos.
+
+A continuación voy a listar algunos de los recursos mas útiles que vaya encontrando y una breve descripción:
+* Como primer paso recomiendo ingresar al [BIDS Starter Kit](https://github.com/bids-standard/bids-starter-kit). Es un repositorio alojado en github con lo necesario para arrancar.
+
+ 

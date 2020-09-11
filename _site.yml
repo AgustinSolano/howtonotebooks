@@ -7,5 +7,5 @@ navbar:
       href: index.html
     - text: "Notebooks"
       menu:
-        - text: "Notebook 1"
-          href: notebook1.html
+        - text: "BIDS notes"
+          href: bids_notes.html

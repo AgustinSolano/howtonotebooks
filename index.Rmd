@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-## Aca se supone que va un indice
+## [Por ahora ir aca!](http://www.physiologyofactionlab.info/es/lab-members-2/agustin-solano/)
