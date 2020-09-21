@@ -1,12 +1,17 @@
 ---
 title: "¿Cómo empezar con BIDS?"
 ---
-\
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 17px;
+  }
+</style>
 
 ## Que es BIDS?
 BIDS: Brain Imaging Data Structure es una forma de estructurar todos los datos obtenidos en experimentos de Neuroimágenes (MRI, fMRI, EEG, iEEG, conducta, etc)
 
-TODO: PONER ALGUNA FIGURA DEL ARBOL?
 Un ejemplo de como quedaría organizado el arbol de directorios se puede ver en esta imagen:
 ```{r setup, include=FALSE}
 library(knitr)
