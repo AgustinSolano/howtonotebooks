@@ -303,14 +303,30 @@ $(document).ready(function () {
 </div>
 
 
-<p><br />
-</p>
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 17px;
+  }
+</style>
 <div id="que-es-bids" class="section level2">
 <h2>Que es BIDS?</h2>
 <p>BIDS: Brain Imaging Data Structure es una forma de estructurar todos los datos obtenidos en experimentos de Neuroimágenes (MRI, fMRI, EEG, iEEG, conducta, etc)</p>
-<p>TODO: PONER ALGUNA FIGURA DEL ARBOL?</p>
+<p>Un ejemplo de como quedaría organizado el arbol de directorios se puede ver en esta imagen:</p>
+<p><img src="figs/bids_dir_tree_2.jpg" width="100%" /></p>
 <p>La recomendación es ingresar primero al <a href="https://bids.neuroimaging.io/" title="BIDS">sitio principal del estándar</a> y mirar también los <a href="https://bids-specification.readthedocs.io/en/stable/" title="v1.4.0">detalles del estándar (v1.4.0)</a> para entender el árbol de directorios y archivos requeridos.</p>
-<p>A continuación voy a listar algunos de los recursos mas útiles que vaya encontrando y una breve descripción: * Como primer paso recomiendo ingresar al <a href="https://github.com/bids-standard/bids-starter-kit">BIDS Starter Kit</a>. Es un repositorio alojado en github con lo necesario para arrancar.</p>
+<p>A continuación voy a listar algunos de los recursos mas útiles que vaya encontrando y una breve descripción:</p>
+<ul>
+<li>Como primer paso recomiendo ingresar al <a href="https://github.com/bids-standard/bids-starter-kit">BIDS Starter Kit</a>. Es un repositorio alojado en github con lo necesario para arrancar.
+<ul>
+<li>La <a href="https://github.com/bids-standard/bids-starter-kit/wiki">wiki</a> tiene varios recursos básicos para introducirse a la filosofía en la que se basa el estándar, los tipos de archivos principales que se usan para enriquecer la info que se registra de nuestros datos. También hay tutoriales, datasets de ejemplo, presentaciones/recursos/links para profundizar.</li>
+<li>Una herramienta muy importante es el <a href="https://bids-standard.github.io/bids-validator/">validador</a> que nos permite verificar si un dataset cumple con los requerimientos de BIDS.</li>
+<li>Para tener la posibilidad de hacer preguntas y contactar a la comunidad recomiendan el uso de la plataforma <a href="https://neurostars.org/tags/bids">Neurostars</a>. Alli también se pueden hacer consultas sobre otras ramas de neuroimágenes.</li>
+<li>Otra cosa muy útil son una serie de apps (<a href="http://bids-apps.neuroimaging.io/apps/">BIDS Apps</a>), que reciben como entrada un dataset organizado siguiendo BIDS y permiten aplicar un pipeline de procesamiento determinado. Las apps viene enpaquetadas en imágenes de Docker/Singularity. Hay varios desarrollos ya disponibles para usar, aunque la mayoría son para MRI/fMRI.</li>
+</ul></li>
+<li><p><a href="https://github.com/bids-standard/pybids">PyBIDS</a> es una librería con funciones para interactuar con BIDS, usando python. Permite crear un layout del dataset para poder recorrerlo y acceder a los archivos. Tiene funcionalidades para crear un reporte y finalmente herramientas para crear modelos lineales (GLMs) a partir del dataset.</p></li>
+<li><p>Un repositorio que me ayudó mucho a organizar mis datos es el de <a href="https://github.com/robertoostenveld/bids-tools">Robert Oostenveld</a>. Tiene una serie de scripts para organizar/reorganizar archivos. Me resultó muy útil uno que permite crear todos los archivos accesorios del dataset (create sidecar files), en caso de que haya faltantes (incorpora los obligatorios y algunos opcionales). También permite chequear si está todo bien de acuerdo al estándar.</p></li>
+</ul>
 </div>
 
 
