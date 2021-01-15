@@ -24,6 +24,11 @@ include_graphics("./figs/bids_dir_tree_2.jpg")
 
 La recomendación es ingresar primero al [sitio principal del estándar ](https://bids.neuroimaging.io/ "BIDS") y mirar también los [detalles del estándar (v1.4.0)](https://bids-specification.readthedocs.io/en/stable/ "v1.4.0") para entender el árbol de directorios y archivos requeridos.
 
+Video-tutoriales como para arrancar:
+
+* [The benefits of BIDS](https://youtu.be/K9hVAr5fvJg) - BrainHack 2020 de OHBM
+* [Brain Imaging Data Standards BIDS for EEG](https://youtu.be/DUufZLhl7jM) - Dr. Cyril Pernet, Sapiens Lab
+
 A continuación voy a listar algunos de los recursos mas útiles que vaya encontrando y una breve descripción:
 
 * Como primer paso recomiendo ingresar al [BIDS Starter Kit](https://github.com/bids-standard/bids-starter-kit). Es un repositorio alojado en github con lo necesario para arrancar.
